@@ -1,0 +1,2 @@
+# UnityAnyPortraitLive2DGame
+- AnyPortrait是帮助您创建二维角色动画的绝佳工具您可以轻松创建2D网格并使用各种动画技术
