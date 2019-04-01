@@ -1,0 +1,22 @@
+
+[ License ]
+
+
+< Opensource SDK and Font License >
+
+1. Ntreev Photoshop Document Parser for .Net
+
+Copyright (c) 2015 Ntreev Soft co., Ltd.
+Released under the MIT License.
+
+
+
+2. NGif, Animated GIF Encoder for .NET
+
+Released under the CPOL 1.02.
+
+
+
+3. Font : Spoqa Han Sans
+
+SIL Open Font License (OFL) 1.1

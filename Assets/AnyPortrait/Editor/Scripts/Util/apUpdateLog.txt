@@ -1,0 +1,429 @@
+﻿(영어)
+<size=16>AnyPortrait Update Log v1.0.3</size>
+(Build April 14, 2018)
+
+
+<size=13>Improvements</size>
+
+- Significant improvements in <color=blue>Screen Capture</color>
+    Transparent color can be specified as background color (Except GIF animation)
+    Added ability to save Sprite Sheet
+    Screen capture Dialog is deleted and moved to the right screen to improve
+    Support screen capture on Mac OSX
+    <color=red>(Check out the enhanced screen capture features on the homepage)</color>
+
+- Improved <color=blue>Physics Effects</color>
+    Corrected incorrectly calculated inertia when moving from outside
+    Some changes to preset settings as physical formulas change
+    <color=red>(Physical properties changed. Please check the homepage!)</color>
+
+- Modify the gizmo to be inverted if the scale of the object is negative
+- When replacing the texture of the mesh, Script Functions that can be replaced with an image registered in AnyPortrait has been added
+
+
+
+<size=13>Fixed issues</size>
+
+- Fixed an issue that caused data errors to occur when undoing after creating or deleting objects
+- Fixed a problem that when importing animation pose, data is missing while generating timeline automatically
+- Fixed an issue where other vertices were selected when using the FFD tool
+- Fixed an issue where vertex positions would be strange when undoing when using FFD tool
+- Fixed an issue where the modifier did not recognize that the mesh was deleted, resulting in error code output
+- Fixed an issue where the clipping mesh would not render properly if the Important option was turned off
+- Fixed an issue where sub-mesh groups could not generate clipping meshes
+- Fixed a problem where deleted mesh and mesh groups appeared as GameObjects
+- Fixed a problem where the script does not change the texture of the mesh
+
+
+-----------------------------------------
+(한국어)
+<size=16>AnyPortrait 업데이트 로그 v1.0.3</size>
+(2018년 4월 14일 빌드)
+
+
+<size=13>개선된 사항</size>
+
+- <color=blue>화면 캡쳐</color> 기능 대폭 개선
+    배경색으로 투명색을 지정 가능 (GIF 애니메이션 제외)
+    스프라이트 시트(Sprite Sheet) 저장 기능 추가
+    화면 캡쳐 Dialog가 삭제되고 오른쪽 화면으로 이동하여 개선됨
+    Mac OSX에서 화면 캡쳐 기능 지원
+    <color=red>(강화된 화면 캡쳐 기능은 홈페이지에서 확인하세요)</color>
+
+- <color=blue>물리 효과</color> 개선
+    외부에서 위치를 수정할 경우, 관성이 잘못 적용되는 점 수정
+    물리 수식의 변화에 따라 프리셋 설정 일부 변경
+    <size=13><color=red>(물리 속성이 변경되었습니다. 꼭 홈페이지를 확인해주세요!)</color></size>
+
+- 객체의 스케일이 음수인 경우, 기즈모가 반전되도록 수정
+- 메시의 텍스쳐를 교체할 때, AnyPortrait에 등록된 이미지로 교체할 수 있도록 스크립트 함수 추가
+
+
+
+<size=13>수정된 문제점</size>
+
+- 객체를 생성하거나 삭제한 이후 실행 취소를 할 때, 데이터 오류가 발생하면서 작업이 불가능해지는 문제
+- 애니메이션 포즈를 Import할 때, 자동으로 타임라인을 생성하면서 데이터가 누락되는 문제
+- FFD 툴을 사용할 때, 다른 버텍스가 선택되는 문제
+- FFD 툴을 사용할 때 실행 취소를 하면 위치가 이상해지는 문제
+- 메시 삭제후 모디파이어에서 이를 인식하지 못하여 발생하는 에러 코드
+- Important 옵션이 꺼지면 클리핑 메시가 제대로 렌더링하지 못하는 문제
+- 하위 메시 그룹에서 클리핑 메시를 생성할 수 없는 문제
+- 삭제한 메시나 메시 그룹이 GameObject로 등장하는 문제
+- 스크립트로 메시의 텍스쳐가 바뀌지 않는 문제
+
+
+-----------------------------------------
+(프랑스어)
+<size=16>Fichier de mise à jour AnyPortrait v1.0.3</size>
+(Construit le 14 avril 2018)
+
+
+<size=13>Améliorations</size>
+
+- Améliorations significatives dans <color=blue>Capture d'écran</color>
+    La couleur transparente peut être spécifiée comme couleur d'arrière-plan (sauf l'animation GIF)
+    Ajout de la possibilité d'enregistrer une feuille de sprite
+    Le dialogue de capture d'écran est supprimé et déplacé vers l'écran de droite pour améliorer
+    Prise en charge de capture d'écran sur Mac OSX
+    <color=red>(Consultez les fonctionnalités de capture d'écran améliorées sur la page d'accueil)</color>
+
+- Amélioration des effets de <color=blue>la Physique</color>
+    Correction de l'inertie calculée incorrectement lors du déplacement de l'extérieur
+    Certaines modifications apportées aux paramètres prédéfinis en tant que formules physiques changent
+    <size=13><color=red>(Les propriétés physiques ont changé. S'il vous plaît vérifier la page d'accueil!)</color></size>
+
+- Modifier le gizmo à inverser si l'échelle de l'objet est négative
+- Lors du remplacement de la texture du maillage, des fonctions Script pouvant être remplacées par une image enregistrée dans AnyPortrait ont été ajoutées
+
+
+
+<size=13>Problème résolu</size>
+
+- Correction d'un problème qui provoquait des erreurs de données lors de la suppression après la création ou la suppression d'objets
+- Correction d'un problème qui lors de l'importation de l'animation pose, les données sont manquantes tout en générant la ligne de temps automatiquement
+- Correction d'un problème où d'autres sommets étaient sélectionnés lors de l'utilisation de l'outil FFD
+- Correction d'un problème où les positions de vertex seraient étranges lors de la défaite lors de l'utilisation de l'outil FFD
+- Correction d'un problème où le modificateur ne reconnaissait pas que le maillage avait été supprimé, entraînant la sortie du code d'erreur
+- Correction d'un problème où le maillage d'écrêtage ne serait pas rendu correctement si l'option Important était désactivée
+- Correction d'un problème où les groupes de sous-maillage ne pouvaient pas générer de maillages d'écrêtage
+- Correction d'un problème où les groupes de maillage et de maillage supprimés apparaissaient en tant que GameObjects
+- Correction d'un problème où le script ne change pas la texture du maillage
+
+
+
+-----------------------------------------
+(독일어)
+<size=16>AnyPortrait-Aktualisierungsprotokoll v1.0.3</size>
+(Build 14. April 2018)
+
+
+<size=13>Verbesserungen</size>
+
+- Signifikante Verbesserungen bei der <color=blue>Bildschirmaufnahme</color>
+    Transparente Farbe kann als Hintergrundfarbe angegeben werden (außer GIF-Animation)
+    Fähigkeit hinzugefügt, Sprite Sheet zu speichern
+    Bildschirmaufnahme Dialog wird gelöscht und zur Verbesserung auf den rechten Bildschirm verschoben
+    Unterstützen Sie die Bildschirmaufnahme unter Mac OSX
+    <color=red>(Überprüfen Sie die erweiterten Screenshotfunktionen auf der Startseite)</color>
+
+- Verbesserte <color=blue>Physik Effekte</color>
+    Korrigierte falsch berechnete Trägheit bei Bewegung von außen
+    Einige Änderungen an Voreinstellungen als physikalische Formeln ändern sich
+    <size=13><color=red>(Physische Eigenschaften geändert. Bitte überprüfen Sie die Homepage!)</color></size>
+
+- Ändern Sie das zu invertierende Gizmo, wenn der Maßstab des Objekts negativ ist
+- Beim Ersetzen der Textur des Netzes wurden Skriptfunktionen hinzugefügt, die durch ein in AnyPortrait registriertes Bild ersetzt werden können
+
+
+
+<size=13>Problem behoben</size>
+
+- Es wurde ein Problem behoben, das zu Datenfehlern beim Rückgängigmachen nach dem Erstellen oder Löschen von Objekten führte
+- Es wurde ein Problem behoben, bei dem beim Importieren der Animationspose Daten beim automatischen Erstellen der Zeitleiste fehlten
+- Es wurde ein Problem behoben, bei dem andere Scheitelpunkte bei Verwendung des FFD-Tools ausgewählt wurden
+- Ein Problem wurde behoben, bei dem Vertex-Positionen beim Rückgängigmachen des FFD-Tools merkwürdig waren
+- Es wurde ein Problem behoben, bei dem der Modifikator nicht erkannte, dass das Mesh gelöscht wurde, was zur Ausgabe eines Fehlercodes führte
+- Es wurde ein Problem behoben, bei dem das Zuschnetzetz nicht richtig dargestellt wurde, wenn die Option "Wichtig" deaktiviert war
+- Ein Problem wurde behoben, bei dem Sub-Mesh-Gruppen keine Clipping-Meshes generieren konnten
+- Ein Problem wurde behoben, bei dem gelöschte Mesh- und Mesh-Gruppen als GameObjects erschienen
+- Ein Problem wurde behoben, bei dem das Skript die Textur des Gitters nicht veränderte
+
+
+
+-----------------------------------------
+(스페인어)
+<size=16>AnyPortrait Update Log v1.0.3</size>
+(Build 14 de abril de 2018)
+
+
+<size=13>Mejoras</size>
+
+- Mejoras significativas en <color=blue>la Captura de pantalla</color>
+    El color transparente se puede especificar como color de fondo (excepto la animación GIF)
+    Se agregó la capacidad de guardar la Hoja de Sprite
+    El diálogo de captura de pantalla se elimina y se mueve a la pantalla derecha para mejorar
+    Captura de pantalla de soporte en Mac OSX
+    <color=red>(Vea las funciones de captura de pantalla mejorada en la página de inicio)</color>
+
+- Mejora <color=blue>Efectos de física </color>
+    Se corrigió la inercia calculada incorrectamente al moverse desde el exterior
+    Algunos cambios en la configuración preestablecida a medida que cambian las fórmulas físicas
+    <size=13><color=red>(Propiedades físicas cambiadas Por favor revise la página de inicio!)</color></size>
+
+- Modificar el gizmo para invertir si la escala del objeto es negativa
+- Cuando se reemplaza la textura de la malla, se agregaron las funciones de secuencia de comandos que se pueden reemplazar con una imagen registrada en AnyPortrait
+
+
+
+<size=13>Problema solucionado</size>
+
+- Se corrigió un problema que causaba errores de datos al deshacer después de crear o eliminar objetos
+- Se corrigió un problema que al importar la presentación de la animación, faltan datos al generar la línea de tiempo de forma automática
+- Se corrigió un problema donde se seleccionaban otros vértices cuando se usaba la herramienta FFD
+- Se solucionó un problema en el que las posiciones de los vértices serían extrañas al deshacer cuando se utilizaba la herramienta FFD.
+- Se corrigió un problema por el cual el modificador no reconocía que la malla se había eliminado, lo que daba como resultado un código de error de salida
+- Se solucionó un problema por el cual la malla de recorte no se procesaba correctamente si la opción Importante estaba desactivada.
+- Se corrigió un problema por el cual los grupos de submallas no podían generar mallas de recorte
+- Se corrigió un problema en el que los grupos de malla y malla eliminados aparecían como GameObjects.
+- Se corrigió un problema donde el script no cambia la textura de la malla
+
+
+
+-----------------------------------------
+(이탈리아어)
+<size=16>Registro aggiornamenti AnyPortrait v1.0.3</size>
+(Build 14 aprile 2018)
+
+
+<size=13>Miglioramenti</size>
+
+- Miglioramenti significativi in ​​<color=blue>Screen capture</color>
+    Il colore trasparente può essere specificato come colore di sfondo (eccetto l'animazione GIF)
+    Aggiunta la possibilità di salvare Sprite Sheet
+    La finestra di dialogo cattura schermo viene eliminata e spostata nella schermata di destra per migliorare
+    Supporta l'acquisizione dello schermo su Mac OSX
+    <color=red>(Scopri le funzionalità avanzate di acquisizione dello schermo sulla home page)</color>
+
+- Migliorato <color=blue>Effetti fisici</color>
+    Correzione dell'inerzia calcolata erroneamente quando ci si sposta dall'esterno
+    Alcune modifiche alle impostazioni preimpostate cambiano le formule fisiche
+    <size=13><color=red>(Proprietà fisiche cambiate. Si prega di controllare la homepage!)</color></size>
+
+- Modifica il gizmo da invertire se la scala dell'oggetto è negativa
+- Quando si sostituisce la trama della mesh, è stata aggiunta la funzione Script che può essere sostituita con un'immagine registrata in AnyPortrait
+
+
+
+<size=13>Risolto il problema</size>
+
+- Risolto un problema che causava errori di dati durante l'annullamento dopo la creazione o l'eliminazione di oggetti
+- Risolto un problema che durante l'importazione di pose di animazione, i dati mancano durante la generazione automatica della timeline
+- Risolto un problema per cui erano stati selezionati altri vertici quando si utilizzava lo strumento FFD
+- Risolto un problema per cui le posizioni dei vertici erano strane quando si annullava quando si utilizzava lo strumento FFD
+- Risolto un problema in cui il modificatore non riconosceva che la mesh era stata cancellata, con conseguente output del codice di errore
+- Risolto un problema per cui la mesh di ritaglio non veniva visualizzata correttamente se l'opzione Importante era disattivata
+- Risolto un problema per cui i gruppi di sub-mesh non potevano generare mesh di ritaglio
+- Risolto un problema per cui i gruppi mesh e mesh cancellati apparivano come GameObjects
+- Risolto un problema in cui lo script non modifica la trama della mesh
+
+
+
+
+-----------------------------------------
+(덴마크어)
+<size=16>AnyPortrait Update Log v1.0.3</size>
+(Byg den 14. april 2018)
+
+
+<size=13>Forbedringer</size>
+
+- Væsentlige forbedringer i <color=blue>Screen capture</color>
+    Gennemsigtig farve kan angives som baggrundsfarve (undtagen GIF-animation)
+    Tilføjet evne til at gemme Sprite Sheet
+    Dialogfiguren Dialog er slettet og flyttet til højre skærm for at forbedre
+    Support skærmoptagelse på Mac OSX
+    <color=red>(Se de forbedrede skærmopsamlingsfunktioner på hjemmesiden)</color>
+
+- Forbedret <color=blue>Fysik Effekter</color>
+    Korrigeret forkert beregnet inerti ved udvendig bevægelse
+    Nogle ændringer til forudindstillede indstillinger som fysiske formler ændres
+    <size=13><color=red>(Fysiske egenskaber ændret. Se venligst hjemmesiden!)</color></size>
+
+- Modificer gizmo'en til omvendt, hvis objektets mål er negativ
+- Ved udskiftning af meshets tekstur er Scriptfunktioner, der kan erstattes med et billede, der er registreret i AnyPortrait blevet tilføjet
+
+
+
+<size=13>Faste problem</size>
+
+- Løst et problem, der forårsagede datafejl, når der blev ophævet efter oprettelse eller sletning af objekter
+- Fixed et problem, som ved indførsel af animation udgør, mangler data, mens der automatisk oprettes tidslinje
+- Løst et problem, hvor andre hjørner blev valgt, når du brugte FFD-værktøjet
+- Løst et problem, hvor vertexpositioner ville være mærkelige, når du slår fejl, når du bruger FFD-værktøj
+- Løst et problem, hvor modifikatoren ikke genkendte, at masken blev slettet, hvilket resulterede i fejlkodeudgang
+- Løst et problem, hvor klipningen ikke ville være korrekt, hvis Vigtigt er slået fra
+- Løst et problem, hvor grupper med undermasker ikke kunne generere klipmasker
+- Løst et problem, hvor slettede mesh- og maskegrupper dukkede op som GameObjects
+- Løst et problem, hvor scriptet ikke ændrer maskestrukturen
+
+
+
+-----------------------------------------
+(일본어)
+<size=16> AnyPortrait更新ログv1.0.3</size>
+（2018年4月14日ビルド）
+
+
+<size=13>改善点</size>
+
+- <color=blue>スクリーンキャプチャ</color>の大幅な改善
+    透明色は背景色として指定できます（GIFアニメーションを除く）
+    スプライトシートを保存する機能の追加
+    画面キャプチャダイアログが削除され、改善のため右画面に移動されます
+    Mac OSXでの画面キャプチャのサポート
+    <color=red>（ホームページ上の強化されたスクリーンキャプチャ機能をチェックしてください）</color>
+
+- 改良された<color=blue>物理効果</color>
+    外から移動したときに計算された慣性を誤って修正しました
+    物理式が変更されたときのプリセット設定への変更
+    <size=13><color=red>（物理的性質が変化した。 ホームページをチェックしてください！）</color></size>
+
+- オブジェクトの縮尺が負の場合、反転されるギズモを修正する
+- メッシュのテクスチャを置換する際、AnyPortraitに登録されている画像で置き換えられるスクリプト関数を追加しました
+
+
+
+<size=13>修正された問題</size>
+
+- オブジェクトの作成または削除後に元に戻すときにデータエラーが発生する問題を修正しました。
+- タイムラインを自動的に生成しながらアニメーションポーズをインポートするとデータが失われる問題を修正しました
+- FFDツールを使用しているときに他の頂点が選択されていた問題を修正しました。
+- FFDツールを使用しているときに元に戻すときに頂点の位置が奇妙になる問題を修正しました
+- 修正プログラムがメッシュが削除されたことを認識せず、エラーコードが出力される問題を修正しました。
+- [重要]オプションがオフになっているとクリッピングメッシュが正しく表示されないという問題を修正しました。
+- サブメッシュグループがクリッピングメッシュを生成できない問題を修正しました。
+- 削除されたメッシュとメッシュのグループがGameObjectsとして表示される問題を修正しました。
+- スクリプトがメッシュのテクスチャを変更しないという問題を修正しました。
+
+
+
+-----------------------------------------
+(중국어-번체)
+<size=16>AnyPortrait更新日誌v1.0.3 </size>
+（建立於2018年4月14日）
+
+
+<size=13>改進</size>
+
+- 在<color=blue>屏幕截圖</color>中有顯著的改進
+    透明色可以指定為背景色（除了GIF動畫）
+    增加了保存Sprite Sheet的功能
+    屏幕截圖對話框被刪除並移動到右側屏幕以改善
+    在Mac OSX上支持屏幕截圖
+    <color=red>（查看主頁上增強的截屏功能）</color>
+
+- 改進了<color=blue>物理效果</color>
+    校正從外部移動時錯誤計算的慣性
+    對物理公式進行預設設置的更改會發生變化
+    <size=13><color=red>（物理特性改變。 請檢查主頁！）</color></size>
+
+- 如果對象的比例為負值，則修改該Gizmo以反轉
+- 替換網格的紋理時，可添加可用AnyPortrait中註冊的圖像替換的腳本功能
+
+
+
+<size=13>修復了問題</size>
+
+- 修復了在創建或刪除對像後撤消時導致數據錯誤發生的問題
+- 修正了導入動畫姿勢時自動生成時間軸時丟失數據的問題
+- 修正了使用FFD工具時選擇其他頂點的問題
+- 修正了當使用FFD工具撤消時頂點位置會很奇怪的問題
+- 修正了修改器無法識別網格被刪除的問題，導致錯誤代碼輸出
+- 修正了在重要選項關閉的情況下裁剪網格不能正確渲染的問題
+- 修復了子網格組無法生成剪切網格的問題
+- 修正了刪除的網格物體和網格物體作為GameObjects出現的問題
+- 修正了腳本不改變網格紋理的問題
+
+
+
+-----------------------------------------
+(중국어-간체)
+<size=16>AnyPortrait更新日志v1.0.3</size>
+（建立于2018年4月14日）
+
+
+<size=13>改进</size>
+
+- 在<color=blue>屏幕截图</color>中有重大改进
+    透明色可以指定为背景色（除了GIF动画）
+    增加了保存Sprite Sheet的功能
+    屏幕截图对话框被删除并移动到右侧屏幕以改善
+    在Mac OSX上支持屏幕截图
+    <color=red>（查看主页上增强的截屏功能）</color>
+
+- 改进了<color=blue>物理效果</color>
+    校正从外部移动时错误计算的惯性
+    对物理公式进行预设设置的更改会发生变化
+    <size=13><color=red>（物理特性改变。 请检查主页！）</color></size>
+
+- 如果对象的比例为负值，则修改该Gizmo以反转
+- 替换网格的纹理时，可添加可用AnyPortrait中注册的图像替换的脚本功能
+
+
+
+<size=13>修复了问题</size>
+
+- 修复了在创建或删除对象后撤消时导致数据错误发生的问题
+- 修正了导入动画姿势时自动生成时间轴时丢失数据的问题
+- 修正了使用FFD工具时选择其他顶点的问题
+- 修正了当使用FFD工具撤消时顶点位置会很奇怪的问题
+- 修正了修改器无法识别网格被删除的问题，导致错误代码输出
+- 修正了在重要选项关闭的情况下裁剪网格不能正确渲染的问题
+- 修复了子网格组无法生成剪切网格的问题
+- 修正了删除的网格物体和网格物体作为GameObjects出现的问题
+- 修正了脚本不改变网格纹理的问题
+
+
+
+-----------------------------------------
+(폴란드어)
+<size=16>Dziennik aktualizacji AnyPortret v1.0.3</size>
+(Buduj 14 kwietnia 2018 r.)
+
+
+<size=13>Ulepszenia</size>
+
+- Znacząca poprawa <color=blue>przechwytywania ekranu</color>
+    Kolor przezroczysty można określić jako kolor tła (z wyjątkiem animacji GIF)
+    Dodano możliwość zapisywania Arkusza Sprite
+    Przechwytywanie ekranu Okno dialogowe zostało usunięte i przeniesione na prawy ekran, aby poprawić
+    Obsługa przechwytywania ekranu w systemie Mac OSX
+    <color=red>(Sprawdź ulepszone funkcje przechwytywania ekranu na stronie głównej)</color>
+
+- Ulepszono <color=blue>Efekty fizyki</color>
+    Poprawiono niepoprawnie obliczoną bezwładność podczas ruchu z zewnątrz
+    Niektóre zmiany w ustawieniach wstępnych zmieniają się w zależności od formuł fizycznych
+    <size=13><color=red>(Zmieniły się właściwości fizyczne. Sprawdź stronę główną!)</color></size>
+
+- Zmodyfikuj Gizmo, aby był odwrócony, jeśli skala obiektu jest ujemna
+- Podczas zamiany tekstury siatki dodano funkcje skryptowe, które można zastąpić obrazem zarejestrowanym w AnyPortrait
+
+
+
+<size=13>Naprawiono problem</size>
+
+- Naprawiono błąd, który powodował błędy danych podczas cofania po utworzeniu lub usunięciu obiektów
+- Naprawiono problem polegający na tym, że podczas importowania animacji nie ma danych podczas automatycznego generowania osi czasu
+- Naprawiono błąd, w którym inne wierzchołki zostały wybrane podczas używania narzędzia FFD
+- Naprawiono problem, w którym pozycje wierzchołków byłyby dziwne po cofnięciu podczas używania narzędzia FFD
+- Usunięto problem polegający na tym, że modyfikator nie rozpoznał usunięcia siatki, co spowodowało wygenerowanie kodu błędu
+- Naprawiono problem, w którym przycinanie siatki nie wyświetlałoby się prawidłowo, gdyby ważna opcja była wyłączona
+- Naprawiono błąd, w wyniku którego grupy podsieci nie mogły generować siatki obcinania
+- Naprawiono problem polegający na tym, że usunięte siatki i grupy siatki pojawiły się jako GameObjects
+- Naprawiono problem polegający na tym, że skrypt nie zmienia tekstury siatki
+
+
+
+
+-----------------------------------------
